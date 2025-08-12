@@ -120,7 +120,7 @@ elif menu == "Visualizations":
     st.pyplot(fig3)
 
 
-elif menu == "Deep Prediction":
+elif menu == "Prediction":
     st.header("Full Prediction (Laboratory Inputs)")
     numeric_cols = [c for c in data.columns if data[c].dtype != 'object' and c != 'quality']
     inputs = {}
